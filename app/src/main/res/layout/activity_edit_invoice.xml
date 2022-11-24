@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/productEditName_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/customerAddress_Label"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/addressDropdown"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        style="@style/text_view_style"
+        android:backgroundTint="@color/dark_gray"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/text_view_style"
+        android:backgroundTint="@color/dark_gray"
+        android:text="@string/button_save" />
+
+</LinearLayout>

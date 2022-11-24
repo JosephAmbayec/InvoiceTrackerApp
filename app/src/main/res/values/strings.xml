@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Invoice App</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_word">Customer…</string>
+    <string name="button_save">Save</string>
+    <string name="button_update">Update</string>
+    <string name="empty_not_saved">Customer not saved because it is empty.</string>
+    <string name="clear_all_data">Clear all data</string>
+    <string name="delete_customer_preamble">Deleting </string>
+    <string name="clear_data_toast_text">Clear the data now!</string>
+    <string name="clear_invoices_toast_text">Clear the invoices now!</string>
+    <string name="no_word">No customer</string>
+    <string name="unable_to_update">Unable to update the customer</string>
+    <string name="customerName_Label">Customer Name:</string>
+    <string name="customerAddress_Label">Customer Address:</string>
+    <string name="street_hint">123 Main Street</string>
+    <string name="street_Label">Street:</string>
+    <string name="title_activity_show_invoices">ShowInvoices</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_name">Product Name</string>
+    <string name="price_per_unit">Price Per Unit</string>
+    <string name="quantity_string">Quantity</string>
+    <string name="name_string">Name</string>
+    <string name="decimal0">0.00</string>
+    <string name="invoice_total_string">Invoice Total</string>
+    <string name="line_price_string">Line Price</string>
+    <string name="ship_to_string">Ship To:</string>
+    <string name="home_string">Home</string>
+    <string name="settings_string">Settings</string>
+
+</resources>

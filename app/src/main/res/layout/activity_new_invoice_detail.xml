@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/productEditName_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/product_name"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/productEditName_View"
+        style="@style/text_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:hint="Product Name..."/>
+
+    <TextView
+        android:id="@+id/productEditPrice_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/price_per_unit"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/productEditPrice_View"
+        style="@style/text_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price..."
+        tools:ignore="SpeakableTextPresentCheck"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/productEditQuantity_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/quantity_string"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/productEditQuantity_View"
+        style="@style/text_view_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/text_view_style"
+        android:backgroundTint="@color/dark_gray"
+        android:text="@string/button_save" />
+
+</LinearLayout>

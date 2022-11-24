@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="company_type_array">
+        <item>Retail</item>
+        <item>ECommerce</item>
+        <item>Financial Firm</item>
+        <item>Law Firm</item>
+    </array>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/customerName_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/street_Label"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/customerName"
+        style="@style/text_view_style"
+        android:hint="@string/street_hint"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/productEditName_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="City:"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/addressDropdown"
+        style="@style/text_view_style"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/dark_gray"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:hint="Montreal"/>
+
+    <TextView
+        android:id="@+id/province_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Province:"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/provinceName"
+        android:layout_width="match_parent"
+        style="@style/text_view_style"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/dark_gray"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:hint="Quebec"/>
+
+    <TextView
+        android:id="@+id/country_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Country:"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/countryName"
+        android:layout_width="match_parent"
+        style="@style/text_view_style"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/dark_gray"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:hint="Canada"/>
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/text_view_style"
+        android:text="@string/button_save"
+        android:backgroundTint="@color/dark_gray"/>
+
+</LinearLayout>

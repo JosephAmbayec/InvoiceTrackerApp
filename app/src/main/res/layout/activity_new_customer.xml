@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/customerName_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customerName_Label"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/customerName"
+        style="@style/text_view_style"
+        android:hint="@string/hint_word"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/productEditName_Label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/customerAddress_Label"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/addressDropdown"
+        android:layout_width="359dp"
+        android:layout_height="68dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/dark_gray"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/editAddress_Button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Address" />
+
+    <Button
+        android:id="@+id/createAddress_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Address" />
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/button_style"
+        android:text="@string/button_save"
+        android:backgroundTint="@color/dark_gray"/>
+
+</LinearLayout>

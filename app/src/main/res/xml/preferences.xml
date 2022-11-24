@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="Google Inc"
+        android:key="company_name_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Company Name"
+        app:singleLineTitle="false"/>
+
+    <EditTextPreference
+        android:defaultValue="1000"
+        android:key="employee_number_key"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Number of Employees"
+        app:singleLineTitle="false"/>
+    <ListPreference
+        android:defaultValue="Retail"
+        android:entries="@array/company_type_array"
+        android:entryValues="@array/company_type_array"
+        android:key="company_type_preference"
+        android:title="Company Type" />
+
+
+</PreferenceScreen>
